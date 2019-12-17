@@ -1,2 +1,2 @@
 def prime?(integer)
-  integer.any
+  integer.any?
