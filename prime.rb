@@ -3,7 +3,7 @@ def prime?(integer)
     return false
   elsif integer <= 3
     return true
-  else (2..n/2).none? do |x|
+  else (2..integer/2).none? do |x|
     integer % x == 0
   end
   end
